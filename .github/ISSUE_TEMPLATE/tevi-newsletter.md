@@ -2,8 +2,8 @@
 name: TEVI Newsletter
 about: Template for bi-weekly AVS/VEText Newsletter
 title: AVS/VEText Newsletter [MM/DD/YY]
-labels: ''
-assignees: ''
+labels: Product Support vt, VEText vt
+assignees: lindsay-insco
 
 ---
 
