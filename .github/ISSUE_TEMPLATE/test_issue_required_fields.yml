@@ -15,7 +15,7 @@ body:
       placeholder: Here is an example placeholder good for examples
     validations:
       required: true
-type: textarea
+ - type: textarea
     id: testTextArea
     attributes:
       label: This is a test text area
