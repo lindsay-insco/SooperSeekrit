@@ -36,17 +36,6 @@ body:
       default: 0
     validations:
       required: false
-  - type: dropdown
-    id: Test-MC-dropdown
-    attributes:
-      label: Here is a multiple choice dropdown
-      description: A multiple choic!
-      description:
-      multiple: true
-      options:
-        - MC Test 1
-        - MC Test 2
-        - MC Test 3
 - type: checkboxes
   id: cat-preferences
   attributes:
