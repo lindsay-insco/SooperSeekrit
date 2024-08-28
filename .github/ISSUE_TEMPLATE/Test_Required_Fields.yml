@@ -50,6 +50,7 @@ body:
   - type: checkboxes
     id: testCheckbox
     attributes:
+        label: Test test
       options:
         - label: I agree that this is a test
           required: true
