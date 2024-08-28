@@ -1,0 +1,62 @@
+name: Test
+description: Test these fields
+title: "[Test title]: "
+labels: ["TEST Support Team"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a test ticket for required vs non-required fields!
+  - type: input
+    id: test-input
+    attributes:
+      label: This is a test input field
+      description: This is a test input field
+      placeholder: ex placeholder
+    validations:
+      required: true
+  - type: textarea
+    id: test-large-box
+    attributes:
+      label: This is a large text box
+      description: Description goes here
+      placeholder: A Placeholder you see!
+      value: "A text box!"
+    validations:
+      required: false
+  - type: dropdown
+    id: test-dropdown
+    attributes:
+      label: This is a test dropdown
+      description: Look at this cool dropdown
+      options:
+        - Test 1
+        - Test 2
+        - Test 3
+      default: 0
+    validations:
+      required: true
+  - type: test-multiple-choice-dropdown
+    id: This is a multiple choice dropdown
+    attributes:
+      label: Now you can click many things
+      multiple: true
+      options:
+        - Test 1
+        - Test 2
+        - Test 3
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
