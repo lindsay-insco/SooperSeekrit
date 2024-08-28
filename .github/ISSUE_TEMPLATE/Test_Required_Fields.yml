@@ -7,37 +7,8 @@ body:
     attributes:
       value: |
         This is a test!
-  - type: input
-    id: test-input
-    attributes:
-      label: Test Input Field
-      description: Here is a test input field
-      placeholder: example placeholder
-    validations:
-      required: false
-  - type: textarea
-    id: test-textbox
-    attributes:
-      label: Test Textbox Field
-      description: This is a test textbox
-      placeholder: Placeholder!
-      value: "Look at this field!"
-    validations:
-      required: true
-  - type: dropdown
-    id: test-dropdown
-    attributes:
-      label: Here is a single choice dropdown
-      description: Here is a simple dropdown
-      options:
-        - Test 1
-        - Test 2
-        - Test 3
-      default: 0
-    validations:
-      required: false
 - type: checkboxes
-    id: terms
+    id: test-checkbox
     attributes:
       label: Secure Passphrase
       options:
