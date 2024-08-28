@@ -50,8 +50,10 @@ body:
     validations:
       required: false
 - type: checkboxes
-    id: passphraseRequirement
-    attributes:
-    options: 
-        - label: I agree that my Passphrase is strong see [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases) for more information
-          required: true
+  id: cat-preferences
+  attributes:
+    label: What kinds of cats do you like?
+    description: You may select more than one.
+    options:
+      - label: Orange cat (required. Everyone likes orange cats.)
+        required: true
