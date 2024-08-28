@@ -54,3 +54,13 @@ body:
       options:
         - label: I agree that this is a test
           required: true
+- type: checkboxes
+    id: testTest
+    attributes:
+      label: Test test
+      options:
+        - label: TestTestTestTest
+          required: true
+
+
+
