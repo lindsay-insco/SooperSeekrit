@@ -2,7 +2,6 @@ name: Test
 description: Test these fields
 title: "[Test title]: "
 labels: ["TEST Support Team"]
-
 body:
   - type: markdown
     attributes:
@@ -38,7 +37,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: This is a multiple choice dropdown
+    id: test-multiple-dropdown
     attributes:
       label: Now you can click many things
       multiple: true
@@ -46,14 +45,8 @@ body:
         - Test 1
         - Test 2
         - Test 3
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
   - type: checkboxes
-    id: terms
+    id: test-checkboxes
     attributes:
       label: Code of Conduct
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
