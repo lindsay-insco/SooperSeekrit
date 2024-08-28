@@ -24,6 +24,17 @@ body:
       value: "Talking!"
     validations:
       required: false
+  - type: dropdown
+    id: testDropdown
+    attributes:
+      label: Test test
+      description: Look at this fancy dropdown
+      options:
+        - Test 1
+        - Test 2
+      default: 0
+    validations:
+      required: false
   - type: checkboxes
     id: testChecknox
     attributes:
