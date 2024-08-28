@@ -8,9 +8,9 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: checkboxes
-    id: terms
+    id: testChecknox
     attributes:
-      label: Secure Passphrase
+      label: Test Checkbox
       options:
-        - label: I agree that my Passphrase is strong see [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases) for more information
+        - label: I agree that this is a test
           required: true
