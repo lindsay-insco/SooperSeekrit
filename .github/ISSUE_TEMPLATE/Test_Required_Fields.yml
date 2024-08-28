@@ -47,13 +47,6 @@ body:
         - MC Test 1
         - MC Test 2
         - MC Test 3
-  - type: checkboxes
-    id: testCheckbox
-    attributes:
-        label: Test test
-      options:
-        - label: I agree that this is a test
-          required: true
 - type: checkboxes
     id: testTest
     attributes:
