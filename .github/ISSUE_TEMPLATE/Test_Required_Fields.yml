@@ -47,5 +47,5 @@ body:
         - MC Test 1
         - MC Test 2
         - MC Test 3
-      validations:
-        required: false
+    validations:
+      required: false
