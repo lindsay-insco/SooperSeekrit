@@ -49,10 +49,3 @@ body:
         - MC Test 3
       validations:
         required: false
-- type: checkboxes
-    id: testTest
-    attributes:
-      label: Test test
-      options:
-        - label: TestTestTestTest
-          required: true
