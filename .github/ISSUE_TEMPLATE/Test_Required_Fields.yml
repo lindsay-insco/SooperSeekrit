@@ -36,9 +36,3 @@ body:
       default: 0
     validations:
       required: false
-- type: checkboxes
-  attributes:
-    options:
-      - label: Orange cat (required. Everyone likes orange cats.)
-        required: true
-      - label: **Black cat**
