@@ -1,0 +1,57 @@
+name: Test Required Fields
+description: File a ticket with required fields.
+title: "[TEST]: "
+labels: ["good first issue", "documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a test!
+  - type: input
+    id: test-input
+    attributes:
+      label: InputField
+      description: Here is a test input field
+      placeholder: example placeholder
+    validations:
+      required: false
+  - type: textarea
+    id: test-textbox
+    attributes:
+      label: TextboxField
+      description: This is a test textbox
+      placeholder: Placeholder!
+      value: "Look at this field!"
+    validations:
+      required: true
+  - type: dropdown
+    id: test-dropdown
+    attributes:
+      label: Here is a single choice dropdown
+      description: Here is a simple dropdown
+      options:
+        - Test 1
+        - Test 2
+        - Test 3
+      default: 0
+    validations:
+      required: false
+  - type: dropdown
+    id: Test-MC-dropdown
+    attributes:
+      label: Here is a multiple choice dropdown
+      description: A multiple choic!
+      description:
+      multiple: true
+      options:
+        - MC Test 1
+        - MC Test 2
+        - MC Test 3
+  - type: checkboxes
+    id: testCheckbox
+    attributes:
+      label: Here is a test checkbox
+      description: By submitting this issue, you agree that this is a [test](https://google.com). 
+      options:
+        - label: I agree that this is a test
+          required: true
