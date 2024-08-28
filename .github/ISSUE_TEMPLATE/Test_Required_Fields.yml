@@ -36,3 +36,10 @@ body:
       default: 0
     validations:
       required: false
+- type: checkboxes
+    id: terms
+    attributes:
+      label: Secure Passphrase
+      options:
+        - label: I agree that my Passphrase is strong see [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases) for more information
+          required: true
