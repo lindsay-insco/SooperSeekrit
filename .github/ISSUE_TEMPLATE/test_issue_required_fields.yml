@@ -15,6 +15,15 @@ body:
       placeholder: Here is an example placeholder good for examples
     validations:
       required: true
+  - type: textarea
+    id: testTextArea
+    attributes:
+      label: This is a test text area
+      description: Now you can type tons of words and stuff
+      placeholder: Talk here!
+      value: "Talking!"
+    validations:
+      required: false
   - type: checkboxes
     id: testChecknox
     attributes:
