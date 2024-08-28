@@ -7,6 +7,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: testInput
+    attributes:
+      label: Test Input Field
+      description: Here is a test of an input field
+      placeholder: Here is an example placeholder good for examples
+    validations:
+      required: true
   - type: checkboxes
     id: testChecknox
     attributes:
