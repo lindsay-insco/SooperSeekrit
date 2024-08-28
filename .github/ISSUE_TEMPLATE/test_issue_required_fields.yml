@@ -1,4 +1,4 @@
-name: Test Checkbox
+name: Test Required Fields
 description: Does this Checkbox work
 title: "[CHECKBOX]: "
 labels: ["bug"]
@@ -35,8 +35,17 @@ body:
       default: 0
     validations:
       required: false
+  - type: dropdown
+    id: MCTest
+    attributes:
+      label: Multiple Choice!
+      multiple: true
+      options:
+        - MC 1
+        - MC 2
+        - MC 3
   - type: checkboxes
-    id: testChecknox
+    id: testCheckbox
     attributes:
       label: Test Checkbox
       options:
