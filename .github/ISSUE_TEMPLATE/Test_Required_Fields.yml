@@ -53,7 +53,7 @@ body:
     id: testCheck
     attributes:
       label: TestTestTest
-      description: By submitting this issue, you agree this is a [test](https://test.com).
+      description: By submitting this issue, you agree this is a test.
       options:
         - label: I agree this is a test
           required: true
