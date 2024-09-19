@@ -182,6 +182,3 @@ body:
   - type: markdown
     attributes: 
       value: "- [ ] Removed from Monday Design Meeting invite"
- <!-- - type: markdown
-    attributes: 
-      value: "CC: @department-of-veterans-affairs/vsp-operations, @department-of-veterans-affairs/platform-analytics-insights-team, @department-of-veterans-affairs/confluence-admins, @department-of-veterans-affairs/platform-design" -->
