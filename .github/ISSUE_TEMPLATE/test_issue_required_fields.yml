@@ -100,7 +100,7 @@ body:
     attributes:
       label: Any additional acccess
       description:
-      placeholder: ex: SOCKS, Pagerduty, Google analytics, etc.
+      placeholder: "ex: SOCKS, Pagerduty, Google analytics, etc."
     validations:
       required: true
   - type: textarea
