@@ -120,5 +120,5 @@ body:
       value: "## Platform Support Tasks </br></br>"
   - type: markdown
     attributes:
-      value: "- [ ] Requested removal from DSVA (Office of CTO @ VA) Slack (if applicable. Search for them in Slack) > A comment on this ticket prefixed with `/request` (i.e. `/request FirstName LastName`) will send a message to the Slack admins automatically!"
+      value: "- [ ] Requested removal from DSVA (Office of CTO @ VA) Slack (if applicable. Search for them in Slack) </br> > A comment on this ticket prefixed with `/request` (i.e. `/request FirstName LastName`) will send a message to the Slack admins automatically!"
       
