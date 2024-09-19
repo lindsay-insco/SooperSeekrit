@@ -5,6 +5,12 @@ title: Offboarding of [individual]
 labels: analytics-insights, Offboarding, operations
 
 body:
+  - type: textarea
+  attributes:
+    label: Current Behavior
+    description: A concise description of what you're experiencing.
+  validations:
+    required: false
   - type: markdown
     attributes:
       value: |
