@@ -149,7 +149,7 @@ body:
   - type: markdown
     attributes: 
       value: "- [ ] Zenhub license removed (If applicable. Check for license [here](https://app.zenhub.com/settings/o/department-of-veterans-affairs/users))"
-   - type: markdown
+  - type: markdown
     attributes: 
       value: "- [ ] [Okta account](https://vfs.atlassian.net/wiki/spaces/OT/pages/2532508159/Offboarding+users+from+Okta) disabled </br></br></br>"
   - type: markdown
@@ -182,3 +182,6 @@ body:
   - type: markdown
     attributes: 
       value: "- [ ] Removed from Monday Design Meeting invite"
+  - type: markdown
+    attributes: 
+      value: "CC: @department-of-veterans-affairs/vsp-operations, @department-of-veterans-affairs/platform-analytics-insights-team, @department-of-veterans-affairs/confluence-admins, @department-of-veterans-affairs/platform-design" 
