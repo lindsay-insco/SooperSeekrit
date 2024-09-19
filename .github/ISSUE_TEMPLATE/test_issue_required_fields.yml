@@ -21,7 +21,10 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Instructions"
+      value: "# Description"
+  - type: markdown
+    attributes:
+      value: "Please provide the following information about the individual being offboarded:"
   - type: input
     id: testInput
     attributes:
