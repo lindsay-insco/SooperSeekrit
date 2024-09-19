@@ -121,4 +121,4 @@ body:
   - type: markdown
     attributes:
       value: "- [ ] Requested removal from DSVA (Office of CTO @ VA) Slack (if applicable. Search for them in Slack) </br> > A comment on this ticket prefixed with `/request` (i.e. `/request FirstName LastName`) will send a message to the Slack admins automatically!"
-      value: "test"
+      value: "- [ ] Requested removal from Confluence (if applicable. Check [confluence members](https://vfs.atlassian.net/wiki/people/search?q=))"
