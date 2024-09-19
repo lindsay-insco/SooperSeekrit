@@ -118,6 +118,9 @@ body:
   - type: markdown
     attributes:
       value: "## Platform Support Tasks </br></br>"
+  - type: markdown
+    attributes:
+      value: "- [ ] Requested removal from DSVA (Office of CTO @ VA) Slack (if applicable. Search for them in Slack)</br>"
   - type: checkboxes
     id: T1Support
     attributes:
@@ -125,7 +128,6 @@ body:
       description: "_The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_"
       options:
         - label: Requested removal from DSVA (Office of CTO @ VA) Slack (if applicable. Search for them in Slack).
-          description: test
         - label: Requested removal from Confluence (if applicable. Check <a href="https://vfs.atlassian.net/wiki/people/search?q=">confluence members</a> )
         - label: "Remove from [Platform Atlas](https://www.va.gov/atlas/product_directory/team_members) (if applicable)"
         - label: "User removed from the VA GitHub Org (if applicable. Check [department-of-veterans-affairs/people](https://github.com/orgs/department-of-veterans-affairs/people)). Fill out request found [here](https://github.com/department-of-veterans-affairs/github-user-requests/issues/new?assignees=&labels=remove-user&template=user-remove.yml&title=Remove+User+from+Org%3A+%5Busername%5D)."
