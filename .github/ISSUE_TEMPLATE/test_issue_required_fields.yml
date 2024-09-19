@@ -26,11 +26,11 @@ body:
     attributes:
       value: "Please provide the following information about the individual being offboarded:"
   - type: input
-    id: testInput
+    id: requiredName
     attributes:
-      label: Test Input Field
-      description: Here is a test of an input field
-      placeholder: Here is an example placeholder good for examples
+      label: Name
+      description: Required name field
+      placeholder: ex. Jane Smith
     validations:
       required: true
   - type: textarea
