@@ -128,7 +128,7 @@ body:
     id: T1Support
     attributes:
       label: Support Tier 1 🌺
-      description: You may select more than one.
+      description: "_The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_"
       options:
         - label: macOS
         - label: Windows
