@@ -13,7 +13,7 @@ body:
       value: "Fill out name of individual and **Description** section below. Note: This form only handles deactivation from the DSVA (Office of CTO @ VA) Slack instance. For Lighthouse Slack and other DOTS-managed tool removal, please submit a [ticket for DOTS removal](https://jira.devops.va.gov/servicedesk/customer/portal/1/create/714)."
    - type: markdown
     attributes:
-      value: "*(Please add only one individual per form)*"
+      value: " *(Please add only one individual per form)* "
   - type: input
     id: testInput
     attributes:
