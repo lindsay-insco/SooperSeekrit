@@ -114,10 +114,10 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: ":raised_hands: :tada: All done. Don't fill out or modify anything below here. :tada: :raised_hands: </br></br>"
+      value: ":raised_hands: :tada: All done. Don't fill out or modify anything below here. :tada: :raised_hands: </br></br></br>"
   - type: markdown
     attributes:
-      value: "## Platform Support Tasks"
+      value: "## Platform Support Tasks </br></br>"
   - type: markdown
     attributes:
-      value: "# Instructions"
+      value: "### Support Tier 1 🌺"
