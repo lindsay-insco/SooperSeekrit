@@ -118,12 +118,6 @@ body:
   - type: markdown
     attributes:
       value: "## Platform Support Tasks </br></br>"
-  - type: markdown
-    attributes:
-      value: "### Support Tier 1 🌺"
-  - type: markdown
-    attributes:
-      value: "_The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_"
   - type: checkboxes
     id: T1Support
     attributes:
