@@ -98,7 +98,7 @@ body:
   - type: input 
     id: additionalAccess
     attributes:
-      label: Additional access they may have
+      label: Additional access
       description: First line formatted with access titles only. 
       placeholder: ex: SOCKS, Pagerduty, Google analytics, etc.
     validations:
