@@ -17,8 +17,6 @@ body:
   - type: markdown
     attributes:
       value: "</br></br>"
-
-
   - type: markdown
     attributes:
       value: "# Description"
@@ -31,6 +29,22 @@ body:
       label: Name
       description:
       placeholder: ex. Jane Smith
+    validations:
+      required: true
+  - type: input
+    id: teamName
+    attributes:
+      label: Team Name
+      description:
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: teamRole
+    attributes:
+      label: Role on Team
+      description:
+      placeholder: 
     validations:
       required: true
   - type: textarea
