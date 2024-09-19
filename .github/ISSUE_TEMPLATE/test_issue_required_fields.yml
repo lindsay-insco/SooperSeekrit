@@ -39,7 +39,7 @@ body:
       placeholder: 
     validations:
       required: true
-  - type: input
+  - type: input 
     id: teamRole
     attributes:
       label: Role on Team
@@ -53,6 +53,54 @@ body:
       label: Expected Last Day
       description: Expected last day in role
       placeholder: MM/DD/YYYY
+    validations:
+      required: true
+  - type: input 
+    id: Company
+    attributes:
+      label: Company they work for
+      description:
+      placeholder: 
+    validations:
+      required: true
+  - type: input 
+    id: email
+    attributes:
+      label: Email
+      description: (Multiple emails listed in order of relevance to VA business, VA, Company, Personal, etc....)
+      placeholder: 
+    validations:
+      required: true
+  - type: input 
+    id: GithubUsername
+    attributes:
+      label: GitHub Username
+      description: Please include "@" symbol
+      placeholder: 
+    validations:
+      required: true
+  - type: input 
+    id: teamRole
+    attributes:
+      label: Role on Team
+      description:
+      placeholder: 
+    validations:
+      required: true
+  - type: input 
+    id: teamRole
+    attributes:
+      label: Role on Team
+      description:
+      placeholder: 
+    validations:
+      required: true
+  - type: input 
+    id: teamRole
+    attributes:
+      label: Role on Team
+      description:
+      placeholder: 
     validations:
       required: true
   - type: textarea
