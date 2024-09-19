@@ -99,17 +99,17 @@ body:
     id: addAccess
     attributes:
       label: Any additional acccess
-      description:
+      description: Access titles only.
       placeholder: "ex: SOCKS, Pagerduty, Google analytics, etc."
     validations:
       required: true
   - type: textarea
-    id: testTextArea
+    id: additionalInfo
     attributes:
-      label: This is a test text area
-      description: Now you can type tons of words and stuff
-      placeholder: Talk here!
-      value: "Talking!"
+      label: Any additional information 
+      description: Feel free to add any additional information that might be relevant for offboarding porposes
+      placeholder: 
+      value: 
     validations:
       required: false
   - type: dropdown
