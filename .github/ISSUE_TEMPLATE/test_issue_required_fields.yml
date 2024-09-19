@@ -47,6 +47,14 @@ body:
       placeholder: 
     validations:
       required: true
+  - type: input
+    id: lastDay
+    attributes:
+      label: Expected Last Day
+      description: Expected last day in role
+      placeholder: MM/DD/YYYY
+    validations:
+      required: true
   - type: textarea
     id: testTextArea
     attributes:
