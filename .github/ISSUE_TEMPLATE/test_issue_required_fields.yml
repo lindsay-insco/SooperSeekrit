@@ -112,30 +112,6 @@ body:
       value: 
     validations:
       required: false
-  - type: dropdown
-    id: testDropdown
+  - type: markdown
     attributes:
-      label: Test test
-      description: Look at this fancy dropdown
-      options:
-        - Test 1
-        - Test 2
-      default: 0
-    validations:
-      required: false
-  - type: dropdown
-    id: MCTest
-    attributes:
-      label: Multiple Choice!
-      multiple: true
-      options:
-        - MC 1
-        - MC 2
-        - MC 3
-  - type: checkboxes
-    id: testCheckbox
-    attributes:
-      label: Test Checkbox
-      options:
-        - label: I agree that this is a test
-          required: true
+      value: ":raised_hands: :tada: All done. Don't fill out or modify anything below here. :tada: :raised_hands:"
