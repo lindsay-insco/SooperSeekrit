@@ -80,7 +80,7 @@ body:
     validations:
       required: true
   - type: input 
-    id: COR
+    id: userCOR
     attributes:
       label: COR
       description:
@@ -88,7 +88,7 @@ body:
     validations:
       required: true
   - type: input 
-    id: PM
+    id: userPM
     attributes:
       label: PM
       description:
