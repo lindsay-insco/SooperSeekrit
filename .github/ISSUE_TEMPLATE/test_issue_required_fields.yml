@@ -125,9 +125,9 @@ body:
     attributes:
       value: "_The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_"
   - type: checkboxes
-    id: operating-systems
+    id: T1Support
     attributes:
-      label: Which operating systems have you used?
+      label: Support Tier 1 🌺
       description: You may select more than one.
       options:
         - label: macOS
