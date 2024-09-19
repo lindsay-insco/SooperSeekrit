@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         This is a test!
-- type: checkboxes
+ - type: checkboxes
     id: test-checkbox
     attributes:
       label: Secure Passphrase
