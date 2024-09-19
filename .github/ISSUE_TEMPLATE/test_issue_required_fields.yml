@@ -125,6 +125,7 @@ body:
       description: "_The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_"
       options:
         - label: "Requested removal from DSVA (Office of CTO @ VA) Slack (if applicable. Search for them in Slack)."
-           - type: markdown
-            attributes:
-              value: "|   _A comment on this ticket prefixed with `/request` (i.e. `/request FirstName LastName`) will send a message to the Slack admins automatically!_"
+   - type: markdown
+    attributes:
+      value: |   
+      A comment on this ticket prefixed with `/request` (i.e. `/request FirstName LastName`) will send a message to the Slack admins automatically!
