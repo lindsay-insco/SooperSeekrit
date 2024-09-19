@@ -127,4 +127,4 @@ body:
         - label: "Requested removal from DSVA (Office of CTO @ VA) Slack (if applicable. Search for them in Slack)."
   - type: markdown
     attributes:
-      value: "A comment on this ticket prefixed with `/request` (i.e. `/request FirstName LastName`) will send a message to the Slack admins automatically!"
+      value: "_A comment on this ticket prefixed with `/request` (i.e. `/request FirstName LastName`) will send a message to the Slack admins automatically!_"
