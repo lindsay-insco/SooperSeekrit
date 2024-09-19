@@ -80,27 +80,27 @@ body:
     validations:
       required: true
   - type: input 
-    id: teamRole
+    id: COR
     attributes:
-      label: Role on Team
+      label: COR
       description:
       placeholder: 
     validations:
       required: true
   - type: input 
-    id: teamRole
+    id: PM
     attributes:
-      label: Role on Team
+      label: PM
       description:
       placeholder: 
     validations:
       required: true
   - type: input 
-    id: teamRole
+    id: additionalAccess
     attributes:
-      label: Role on Team
-      description:
-      placeholder: 
+      label: Additional access they may have
+      description: First line formatted with access titles only. Additional notes may be added on second line after the list.)
+      placeholder: ex: SOCKS, Pagerduty, Google analytics, etc.
     validations:
       required: true
   - type: textarea
