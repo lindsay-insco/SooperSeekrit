@@ -57,8 +57,16 @@ body:
         - "Health Tools"  
         - "Benefit Tools"  
         - "Lighthouse API"  
+        - "Other (Specify below)"
     validations:  
       required: true  
+
+  - type: input  
+    id: crew-other  
+    attributes:  
+      label: "Other Crew (if applicable)"  
+      description: "If you selected 'Other' above, specify the Crew."  
+      placeholder: "Enter other Crew"  
 
   - type: input  
     id: github-team-name  
