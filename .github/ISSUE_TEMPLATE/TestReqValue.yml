@@ -7,6 +7,6 @@ body:
     label: VaGovEmail
     description: "What is your va.gov email?"
     placeholder: "firstname.lastname@va.gov"
-  value: "@va.gov"
+    value: "@va.gov"
   validations:
     required: true
