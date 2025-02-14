@@ -3,7 +3,6 @@ description: Give vagov email.
 title: "Email:"
 body:
 - type: input
-  id: vagov
   attributes:
     label: VaGovEmail
     description: "What is your va.gov email?"
