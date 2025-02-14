@@ -1,6 +1,6 @@
 name: email
-description: Give va.gov email.
-title: "Email: "
+description: Give vagov email.
+title: "Email:"
 body:
 - type: input
   id: vagov
