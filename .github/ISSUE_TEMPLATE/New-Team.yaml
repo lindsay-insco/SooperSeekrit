@@ -1,7 +1,7 @@
-name: New VFS Team Onboarding  
-description: Complete this form to provide essential information about your new VFS team.  
-title: "[New VFS Team]: "  
-labels: ["vfs-onboarding"]  
+name: "New VFS Team"
+description: "Complete this form to provide essential information about your new VFS team."
+title: "[New VFS Team]: Team Name Here "  
+labels: ["new-vfs-team", "platform-orientation", "platform-tech-team-support"]  
 body:  
   - type: markdown  
     attributes:  
