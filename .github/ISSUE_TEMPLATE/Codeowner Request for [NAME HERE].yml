@@ -32,7 +32,7 @@ body:
     id: bestPracticeReview
     attributes:
       label: Documentation
-      description: I have reviewed the PR best practice documentation.
+      description: I have reviewed the [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval).
       options:
-        - label: Please review the [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval) before proceeding.
+        - label: I acknowledge that I have read the above documentation on PR best practices on the va.gov Platform.
           required: true
