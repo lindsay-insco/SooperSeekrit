@@ -35,5 +35,5 @@ body:
       label: Documentation
       description: I have reviewed the PR best practice documentation.
       options:
-        - label: Req
+        - label: test
           required: true
