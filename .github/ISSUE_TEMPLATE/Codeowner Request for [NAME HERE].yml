@@ -1,0 +1,41 @@
+name: Request to Exempt User From Required Reviewes 
+description: 
+title: "Codeowner access request for [NAME HERE]: "
+labels: ["platform-support-ticket"]
+<!--- projects: ["octo-org/1", "octo-org/44"] --->
+assignees:
+body:
+  - type: input
+    id: yourName
+    attributes:
+      label: Your Name
+      description: Please provide the name of the target individual
+      placeholder: ex. Jane Doe
+    validations:
+      required: true
+  - type: input
+      id: yourEmail
+      attributes:
+        label: Your Email
+        description: Please provide the work email for the target individual
+        placeholder: ex. jane.doe@company.com
+      validations:
+        required: true
+  - type: textarea
+    id: desiredCodeownerTeams
+    attributes:
+      label: What teams are you looking to approve PRs for? 
+      description: Please list the teams in the box below
+      render: shell
+      placeholder: @department-of-veterans-affairs/group
+      value: ""
+    validations:
+      required: true
+  - type: checkboxes
+    id: bestPracticeReview
+    attributes:
+      label: PR Best Practice Review
+      description: [PR Best Practices]("https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval). 
+      options:
+        - label: I have reviewed the PR Best Practice guidelines. 
+          required: true
