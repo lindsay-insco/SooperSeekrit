@@ -34,5 +34,5 @@ body:
       label: Documentation
       description: I have reviewed the PR best practice documentation.
       options:
-        - label: test
+        - label: Please review the [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval) before proceeding.
           required: true
