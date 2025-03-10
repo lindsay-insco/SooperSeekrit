@@ -13,13 +13,13 @@ body:
     validations:
       required: true
   - type: input
-      id: email
-      attributes:
-        label: Your Email
-        description: Please provide the work email for the target individual
-        placeholder: ex. jane.doe@company.com
-      validations:
-        required: true
+    id: email
+    attributes:
+      label: Your Email
+      description: Please provide the work email for the target individual
+      placeholder: ex. jane.doe@company.com
+    validations:
+      required: true
   - type: textarea
     id: desiredCodeownerTeams
     attributes:
