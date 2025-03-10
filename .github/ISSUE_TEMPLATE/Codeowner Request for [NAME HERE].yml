@@ -32,8 +32,8 @@ body:
   - type: checkboxes
     id: bestPracticeReview
     attributes:
-      label: PR Best Practice Review
-      description: [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval). 
+      label: Documentation
+      description: [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval) 
       options:
         - label: I have reviewed the PR Best Practice guidelines. 
           required: true
