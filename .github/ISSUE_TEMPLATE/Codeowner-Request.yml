@@ -1,4 +1,4 @@
-name: Codeowner Request 
+name: Codeowner access request for [NAME]
 description: Request required PR review exemption. 
 title: "Codeowner access request for [NAME HERE]: "
 labels: ["platform-support-ticket"]
