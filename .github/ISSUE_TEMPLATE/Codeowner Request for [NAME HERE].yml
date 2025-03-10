@@ -25,7 +25,7 @@ body:
     attributes:
       label: What teams are you looking to approve PRs for? 
       description: Please list the teams in the box below
-      placeholder: @department-of-veterans-affairs/group
+      placeholder: "@department-of-veterans-affairs/group"
       value: ""
     validations:
       required: true
