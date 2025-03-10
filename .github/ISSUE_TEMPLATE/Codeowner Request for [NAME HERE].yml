@@ -19,6 +19,13 @@ body:
       placeholder: ex. jane.doe@company.com
     validations:
       required: true
+  - type: input
+    id: GitHubhandle
+    attributes:
+      label: GitHub handle
+      description: Please provide your Github handle.
+    validations:
+      required: true
   - type: textarea
     id: desiredCodeownerTeams
     attributes:
@@ -36,3 +43,11 @@ body:
       options:
         - label: I acknowledge that I have read the above documentation on PR best practices on the va.gov Platform.
           required: true
+  - type: checkboxes
+    attributes:
+      label: Best Practice Documentation Review
+      description: 
+      options:
+        - label:  I have reviewed the [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval).
+          required: true
+        
