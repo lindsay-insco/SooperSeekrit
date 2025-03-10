@@ -1,4 +1,4 @@
-name: Request to Exempt User From Required Reviewes 
+name: Codeowner Request 
 description: 
 title: "Codeowner access request for [NAME HERE]: "
 labels: ["platform-support-ticket"]
