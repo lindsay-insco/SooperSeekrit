@@ -38,16 +38,18 @@ body:
   - type: checkboxes
     id: bestPracticeReview
     attributes:
-      label: Documentation
+      label: PR Best Practice Documentation Review
       description: I have reviewed the [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval).
       options:
         - label: I acknowledge that I have read the above documentation on PR best practices on the va.gov Platform.
           required: true
+  - type: markdown
+    attributes:
+      value: "---"
   - type: checkboxes
     attributes:
-      label: Best Practice Documentation Review
-      description: 
+      label: Tasks for Platform
+      description: The items in this checklist are for Platform to complete. 
       options:
-        - label:  I have reviewed the [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval)
-          required: true
-        
+        - label: Support ticket linked below.
+        - label: PR for codeowner change linked below. 
