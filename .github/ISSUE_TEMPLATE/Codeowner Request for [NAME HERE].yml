@@ -2,7 +2,6 @@ name: Codeowner Request
 description: Request required PR review exemption. 
 title: "Codeowner access request for [NAME HERE]: "
 labels: ["platform-support-ticket"]
-assignees:
 body:
   - type: input
     id: yourName
