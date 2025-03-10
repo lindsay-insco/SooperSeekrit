@@ -1,5 +1,5 @@
 name: Codeowner Request 
-description: 
+description: Request required PR review exemption. 
 title: "Codeowner access request for [NAME HERE]: "
 labels: ["platform-support-ticket"]
 <!--- projects: ["octo-org/1", "octo-org/44"] --->
