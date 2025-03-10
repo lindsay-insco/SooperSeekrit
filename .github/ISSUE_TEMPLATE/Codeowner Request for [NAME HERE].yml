@@ -33,7 +33,7 @@ body:
     id: bestPracticeReview
     attributes:
       label: Documentation
-      description: [PR Best Practices](https://depo-platform-documentation.scrollhelp.site/developer-docs/submitting-pull-requests-for-approval) 
+      description: I have reviewed the PR best practice documentation.
       options:
-        - label: I have reviewed the PR Best Practice guidelines. 
+        - label: Req
           required: true
