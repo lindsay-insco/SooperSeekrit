@@ -16,7 +16,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below.
   - type: input
     id: contact
     attributes:
