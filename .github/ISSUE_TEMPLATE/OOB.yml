@@ -6,6 +6,11 @@
 # assignees: ''
 
 # ---
+name: OOB Deploy Request
+description: To request Out of band deployment.
+title: "OOB Deploy Request "
+labels: ["platform-tech-team-support"]
+assignees:
 
 # Instructions
 body:
