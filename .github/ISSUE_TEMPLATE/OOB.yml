@@ -26,12 +26,12 @@ body:
  #   validations:
  #     required: false
   - type: textarea
-    id: PR-list
+    id: what-happened
     attributes:
-      label: PR List
+      label: Related PRs
       description: Please provide the list of PRs related to the need for this OOB Deploy below:
       placeholder: PR Link
-      value: "A bug happened!"
+      value: "PR Link"
     validations:
       required: true
 
