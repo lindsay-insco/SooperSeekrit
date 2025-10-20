@@ -33,7 +33,7 @@ body:
       # placeholder: PR Link
       # value: "PR Link"
       label: Related PRs
-      description: Also tell us, what did you expect to happen?
+      description: Please provide the list of PRs related to the need for this OOB Deploy
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
