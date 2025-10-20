@@ -15,9 +15,9 @@ labels: ["platform-tech-team-support"]
 body:
 - type: markdown
   attributes:
-    value: "# Instructions
+    value: "# Instructions"
     
-    Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below."
+    Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below.
 - type: Input
   id: PRs
   attributes:
