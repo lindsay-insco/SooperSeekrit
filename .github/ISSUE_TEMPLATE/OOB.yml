@@ -16,7 +16,6 @@ body:
 - type: markdown
   attributes:
     value: "# Instructions"
-- type: markdown
   attributes:
     value: Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below.
 
