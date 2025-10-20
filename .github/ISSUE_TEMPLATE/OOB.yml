@@ -26,7 +26,7 @@ body:
  #   validations:
  #     required: false
   - type: textarea
-    id: what-happened
+    id: PR-links
     attributes:
      # label: Related PRs
       # description: Please provide the list of PRs related to the need for this OOB Deploy below:
