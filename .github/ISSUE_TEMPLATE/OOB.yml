@@ -28,10 +28,15 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Related PRs
+     # label: Related PRs
       description: Please provide the list of PRs related to the need for this OOB Deploy below:
       placeholder: PR Link
       value: "PR Link"
+
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
 
