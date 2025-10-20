@@ -11,20 +11,22 @@ description: To request Out of band deployment.
 title: "OOB Deploy Request "
 labels: ["platform-tech-team-support"]
 
-# Instructions
+
 body:
-- type: markdown
-  attributes:
-    value: Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below.
-- type: textarea
-    id: what-happened
+  - type: markdown
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations:
-      required: true
+      required: false
+
+      
 
 
  ## PRs Related to OOB
