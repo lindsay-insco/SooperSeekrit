@@ -18,14 +18,7 @@ body:
     value: "# Instructions"
     
     Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below.
-- type: Input
-  id: PRs
-  attributes:
-    label: PR
-    description: "Please provide the list of PRs related to the need for this OOB Deploy below:"
-    placeholder: "Whenever I visit the user account page (1-2 times a week)"
-  validations:
-    required: true
+
 
  ## PRs Related to OOB
 # Please provide the list of PRs related to the need for this OOB Deploy below:
