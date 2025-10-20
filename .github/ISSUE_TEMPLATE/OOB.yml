@@ -35,7 +35,7 @@ body:
       label: Related PRs
       description: Please provide the list of PRs related to the need for this OOB Deploy
       placeholder: List of PRs
-      value: "A bug happened!"
+      value: "- PR Link "
     validations:
       required: true
 
