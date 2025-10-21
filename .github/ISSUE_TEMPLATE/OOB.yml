@@ -63,6 +63,28 @@ body:
       placeholder: Give the reason here. If it has been confirmed in staging, write "Confirmed in staging". 
     validations:
       required: true
+  - type: textarea
+    id: oobDescription
+    attributes:
+      label: Description
+      description: Please provide the details/reason for the OOB Deploy
+      placeholder: Add details here... 
+    validations:
+      required: true
+  - type: textarea
+    id: validationSteps
+    attributes:
+      label: Please list the validation steps to confirm fix
+      placeholder: List validation steps here. If no steps have been taken to validate, please explain why instead.  
+    validations:
+      required: true
+  - type: input
+    id: userValidation
+    attributes:
+      label: Who has validated the PR(s) for this OOB?
+      description: "name + @username OR va.gov email address"
+    validations:
+      required: true
 
 
       
