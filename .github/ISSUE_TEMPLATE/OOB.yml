@@ -29,8 +29,8 @@ body:
   - type: dropdown
     id: incidentClassification
     attributes:
-      label: What browsers are you seeing the problem on?
-      description: test
+      label: Classify Severity of Incident
+      description: "What level of severity would you classify this incident? For more information, please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident)."
       multiple: true
       options:
         - Firefox
