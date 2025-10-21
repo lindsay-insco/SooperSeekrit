@@ -42,9 +42,8 @@ body:
   - type: input
     id: impactedUsers
     attributes:
-      label: Related PRs
-      description: Please provide the list of PRs related to the need for this OOB Deploy
-      placeholder: List of PRs
+      label: Active Daily Users Impacted
+      description: How many active users are impacted at this time and day. 
     validations:
       required: true
 
