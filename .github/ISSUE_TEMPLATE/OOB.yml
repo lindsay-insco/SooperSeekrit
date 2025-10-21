@@ -46,18 +46,17 @@ body:
       description: How many active users are impacted at this time and day. 
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: stagingCheck
     attributes:
-      label: Has fix been confirmed in Staging
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      label: Has fix been confirmed in Staging?
+      # description: "What level of severity would you classify this incident? Please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident) for our classification rubric"
+      multiple: false
       options:
-        - label: "Yes"
-          required: false
-        - label: "No"
-          required: false
-      validations:
-        required: true
+        - Yes
+        - No
+    validations:
+      required: true
 
 
       
