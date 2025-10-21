@@ -85,6 +85,18 @@ body:
       description: "name + @username OR va.gov email address"
     validations:
       required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Verify the following
+      description: Please review and verify the following requirements for an out-of-band deploy. 
+      options:
+        - label: The OOB Deploy Request is after the cutoff time for the regular deploy.[^1]
+          required: true
+        - label: The OOB Deploy Request is critical and must be resolved before the next automated deploy.
+          required: true
+        - label: You are prepared to create an Incident Post Mortem[^2] within two business days.
+          required: true
 
 
       
