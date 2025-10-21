@@ -53,7 +53,6 @@ body:
 #      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
       options:
         - label: Yes
-        - label: No
           required: true
 
       
