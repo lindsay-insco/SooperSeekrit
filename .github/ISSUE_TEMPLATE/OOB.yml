@@ -47,12 +47,13 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: terms
+    id: stagingCheck
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      label: Has fix been confirmed in Staging?
+#      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: Yes
+        - label: No
           required: true
 
       
