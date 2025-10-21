@@ -60,8 +60,7 @@ body:
     id: stagingBypassReason
     attributes:
       label: If not confirmed in Staging, why not?
-      placeholder: Give the reason here. If it has been confirmed in staging, write '"Confirmed in staging"'. 
-      # value: "- PR Link "
+      placeholder: Give the reason here. If it has been confirmed in staging, write "Confirmed in staging". 
     validations:
       required: true
 
