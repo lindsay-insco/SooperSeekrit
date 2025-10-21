@@ -49,7 +49,7 @@ body:
   - type: checkboxes
     id: stagingCheck
     attributes:
-      label: Has fix been confirmed in Staging?
+      label: "Has fix been confirmed in Staging?"
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
       options:
         - label: Yes
