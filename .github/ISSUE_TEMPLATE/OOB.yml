@@ -39,7 +39,7 @@ body:
         - Low
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: impactedUsers
     attributes:
       label: Related PRs
