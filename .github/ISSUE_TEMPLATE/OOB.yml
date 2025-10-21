@@ -102,6 +102,22 @@ body:
   - type: markdown
     attributes:
       value: '[^2] https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/Postmortems'
+  - type: checkboxes
+    id: supportChecks
+    attributes:
+      label: '*Performed by Platform Support Team*'
+      description: These steps are for Platform Support to complete.  
+      options:
+        - label: PagerDuty OOB Deploy Incident Opened
+          required: false
+        - label: OCTO-DE staff acknowledgment of Request
+          required: false
+        - label: Notification is posted in the appropriate Slack support and team Channels
+          required: false
+        - label: Infrastructure/Operations has acknowledge the Requests (This applies to revproxy and fwdproxy, but is not required for Frontend and Backend requests)
+          required: false
+        - label: Security Team has Reviewed the requests (This is not necessary for requests that are not related to security) 
+          required: false
 
       
 
