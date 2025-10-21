@@ -56,6 +56,8 @@ body:
           required: false
         - label: "No"
           required: false
+      validations:
+        required: true
 
 
       
