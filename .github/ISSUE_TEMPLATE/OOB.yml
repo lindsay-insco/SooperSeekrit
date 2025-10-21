@@ -30,13 +30,21 @@ body:
     id: incidentClassification
     attributes:
       label: Classify Severity of Incident
-      description: "What level of severity would you classify this incident? For more information, please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident)."
-      multiple: true
+      description: "What level of severity would you classify this incident? Please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident) for our classification rubric"
+      multiple: false
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Critical
+        - High
+        - Moderate
+        - Low
+    validations:
+      required: true
+  - type: textarea
+    id: impactedUsers
+    attributes:
+      label: Related PRs
+      description: Please provide the list of PRs related to the need for this OOB Deploy
+      placeholder: List of PRs
     validations:
       required: true
 
