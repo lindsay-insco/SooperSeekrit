@@ -27,9 +27,10 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: incidentClassification
     attributes:
       label: What browsers are you seeing the problem on?
+      description: test
       multiple: true
       options:
         - Firefox
