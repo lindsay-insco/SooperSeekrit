@@ -50,11 +50,18 @@ body:
     id: stagingCheck
     attributes:
       label: Has fix been confirmed in Staging?
-      # description: "What level of severity would you classify this incident? Please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident) for our classification rubric"
       multiple: false
       options:
         - 'Yes'
         - 'No'
+    validations:
+      required: true
+  - type: textarea
+    id: stagingBypassReason
+    attributes:
+      label: If not confirmed in Staging, why not?
+      placeholder: Give the reason here. If it has been confirmed in staging, write '"Confirmed in staging"'. 
+      # value: "- PR Link "
     validations:
       required: true
 
