@@ -53,8 +53,8 @@ body:
       # description: "What level of severity would you classify this incident? Please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident) for our classification rubric"
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
