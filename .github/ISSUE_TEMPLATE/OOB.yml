@@ -13,7 +13,7 @@ body:
       label: Team Name
       description: Please list the name of the team requesting this out-of-band deploy 
     validations:
-    required: true
+      required: true
 #  - type: input
 #   id: teamPO
 #   attributes:
