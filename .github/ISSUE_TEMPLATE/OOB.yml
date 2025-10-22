@@ -14,13 +14,13 @@ body:
       description: Please list the name of the team requesting this out-of-band deploy 
     validations:
       required: true
-#  - type: input
-#   id: teamPO
-#   attributes:
-#     label: Federal Product Owner
-#     description: Who is the product owner for this team? 
-#   validations:
-#     required: true
+  - type: input
+    id: teamPO
+    attributes:
+      label: Federal Product Owner
+      description: Who is the product owner for this team? 
+    validations:
+      required: true
 #  - type: input
 #   id: teamSlack
 #   attributes:
