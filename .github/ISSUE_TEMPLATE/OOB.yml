@@ -36,18 +36,18 @@ body:
       placeholder: List of PRs
     validations:
       required: true
-#  - type: dropdown
-#    id: incidentClassification
-#    attributes:
-#      label: What type of issue does this fix?
-#      description: "How would you categorize this incident?"
-#      multiple: false
-#      options:
-#        - Security (PII leak or spill)
-#        - Veteran-impacting bug
-#        - Other (Explain in description space below)
-#    validations:
-#      required: true
+  - type: dropdown
+    id: incidentClassification
+    attributes:
+      label: What type of issue does this fix?
+      description: "How would you categorize this incident?"
+      multiple: true
+      options:
+        - Security (PII leak or spill)
+        - Veteran-impacting bug
+        - Other (Explain in description space below)
+      validations:
+        required: true
 #  - type: dropdown
 #    id: incidentClassification
 #    attributes:
