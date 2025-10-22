@@ -46,8 +46,8 @@ body:
         - Security (PII leak or spill)
         - Veteran-impacting bug
         - Other (Explain in description space below)
-      validations:
-        required: true
+    validations:
+      required: true
 #  - type: dropdown
 #    id: incidentClassification
 #    attributes:
