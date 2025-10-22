@@ -21,13 +21,13 @@ body:
       description: Who is the product owner for this team? 
     validations:
       required: true
-    - type: input
-    id: teamSlack
-    attributes:
-      label: Team Slack Channel
-      description: What is the slack channel the team who is requesting this OOB uses to communicate most? 
-    validations:
-      required: true
+#    - type: input
+#    id: teamSlack
+#    attributes:
+#      label: Team Slack Channel
+#      description: What is the slack channel the team who is requesting this OOB uses to communicate most? 
+#    validations:
+#      required: true
 #  - type: textarea
 #    id: prLinks
 #    attributes:
