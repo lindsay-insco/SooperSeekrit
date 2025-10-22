@@ -118,13 +118,13 @@ body:
       description: "name + @username OR va.gov email address"
     validations:
       required: true
-#  - type: textarea
-#    id: prodValidation
-#    attributes:
-#      label: What is your post-deploy verification plan (link Datadog log query or testing steps)?
-#      placeholder: Add links to Datadog log query and/or testing steps here. If you cannot provide this, explain why in detail.  
-#    validations:
-#      required: true
+  - type: textarea
+    id: prodValidation
+    attributes:
+      label: What is your post-deploy verification plan (link Datadog log query or testing steps)?
+      placeholder: Add links to Datadog log query and/or testing steps here. If you cannot provide this, explain why in detail.  
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
