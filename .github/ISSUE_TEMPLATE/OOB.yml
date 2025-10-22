@@ -48,19 +48,19 @@ body:
         - Other (Explain in description space below)
     validations:
       required: true
-#  - type: dropdown
-#    id: incidentClassification
-#    attributes:
-#      label: Classify Severity of Incident
-#      description: "What level of severity would you classify this incident? Please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident) for our classification rubric"
-#      multiple: false
-#      options:
-#        - Critical
-#        - High
-#        - Moderate
-#        - Low
-#    validations:
-#      required: true
+  - type: dropdown
+    id: incidentClassification
+    attributes:
+      label: Classify Severity of Incident
+      description: "What level of severity would you classify this incident? Please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident) for our classification rubric"
+      multiple: false
+      options:
+        - Critical
+        - High
+        - Moderate
+        - Low
+    validations:
+      required: true
 #  - type: dropdown
 #    id: mobileImpact
 #    attributes:
