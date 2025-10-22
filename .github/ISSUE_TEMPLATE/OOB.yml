@@ -37,7 +37,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: incidentClassification
+    id: incidentCategory
     attributes:
       label: What type of issue does this fix?
       description: "How would you categorize this incident?"
