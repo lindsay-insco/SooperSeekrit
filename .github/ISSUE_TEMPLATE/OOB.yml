@@ -67,11 +67,11 @@ body:
       label: Does this impact VA Mobile?
       description: "Will you need to make any modifications to VA Mobile?"
       multiple: false
-        options:
-          - Yes (Explain in Description)
-          - No
-          validations:
-            required: true
+      options:
+        - Yes (Explain in Description)
+        - No
+    validations:
+      required: true
   - type: input
     id: impactedUsers
     attributes:
