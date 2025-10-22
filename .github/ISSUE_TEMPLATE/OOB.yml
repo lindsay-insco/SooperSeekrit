@@ -3,18 +3,17 @@ description: To request Out of band deployment.
 title: "OOB Deploy Request "
 labels: ["platform-tech-team-support"]
 
-
 body:
   - type: markdown
     attributes:
       value: Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below. Answers to all questions are required. 
   - type: input
-   id: teamName
-   attributes:
-     label: Team Name
-     description: Please list the name of the team requesting this out-of-band deploy 
-   validations:
-     required: true
+    id: teamName
+    attributes:
+      label: Team Name
+      description: Please list the name of the team requesting this out-of-band deploy 
+    validations:
+    required: true
 #  - type: input
 #   id: teamPO
 #   attributes:
