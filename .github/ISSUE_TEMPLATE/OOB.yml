@@ -26,8 +26,8 @@ body:
     attributes:
       label: Team Slack Channel
       description: What is the slack channel the team who is requesting this OOB uses to communicate most? 
-      validations:
-        required: true
+    validations:
+      required: true
 #  - type: textarea
 #    id: prLinks
 #    attributes:
