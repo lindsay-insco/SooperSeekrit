@@ -28,14 +28,14 @@ body:
       description: What is the slack channel the team who is requesting this OOB uses to communicate most? 
     validations:
       required: true
-  - type: textarea
-    id: prLinks
-    attributes:
-      label: Related PR
-      description: Please provide the list of PRs related to the need for this OOB Deploy
-      placeholder: List of PRs
-    validations:
-      required: true
+#  - type: textarea
+#    id: prLinks
+#    attributes:
+#      label: Related PR
+#      description: Please provide the list of PRs related to the need for this OOB Deploy
+#      placeholder: List of PRs
+#    validations:
+#      required: true
 #  - type: dropdown
 #    id: incidentClassification
 #    attributes:
