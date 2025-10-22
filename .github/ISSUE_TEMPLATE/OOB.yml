@@ -29,7 +29,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: PR-links
+    id: prLinks
     attributes:
       label: Related PRs
       description: Please provide the list of PRs related to the need for this OOB Deploy
