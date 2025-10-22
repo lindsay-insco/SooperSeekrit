@@ -15,20 +15,20 @@ body:
      description: Please list the name of the team requesting this out-of-band deploy 
    validations:
      required: true
-  - type: input
-   id: teamPO
-   attributes:
-     label: Federal Product Owner
-     description: Who is the product owner for this team? 
-   validations:
-     required: true
-  - type: input
-   id: teamSlack
-   attributes:
-     label: Team Slack Channel
-     description: What is the slack channel the team who is requesting this OOB uses to communicate most? 
-   validations:
-     required: true
+#  - type: input
+#   id: teamPO
+#   attributes:
+#     label: Federal Product Owner
+#     description: Who is the product owner for this team? 
+#   validations:
+#     required: true
+#  - type: input
+#   id: teamSlack
+#   attributes:
+#     label: Team Slack Channel
+#     description: What is the slack channel the team who is requesting this OOB uses to communicate most? 
+#   validations:
+#     required: true
   - type: textarea
     id: PR-links
     attributes:
@@ -37,42 +37,42 @@ body:
       placeholder: List of PRs
     validations:
       required: true
-  - type: dropdown
-    id: incidentClassification
-    attributes:
-      label: What type of issue does this fix?
-      description: "How would you categorize this incident?"
-      multiple: false
-      options:
-        - Security (PII leak or spill)
-        - Veteran-impacting bug
-        - Other (Explain in description space below)
-    validations:
-      required: true
-  - type: dropdown
-    id: incidentClassification
-    attributes:
-      label: Classify Severity of Incident
-      description: "What level of severity would you classify this incident? Please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident) for our classification rubric"
-      multiple: false
-      options:
-        - Critical
-        - High
-        - Moderate
-        - Low
-    validations:
-      required: true
-  - type: dropdown
-    id: mobileImpact
-    attributes:
-      label: Does this impact VA Mobile?
-      description: "Will you need to make any modifications to VA Mobile?"
-      multiple: false
-      options:
-        - Yes
-        - No
-    validations:
-      required: true
+#  - type: dropdown
+#    id: incidentClassification
+#    attributes:
+#      label: What type of issue does this fix?
+#      description: "How would you categorize this incident?"
+#      multiple: false
+#      options:
+#        - Security (PII leak or spill)
+#        - Veteran-impacting bug
+#        - Other (Explain in description space below)
+#    validations:
+#      required: true
+#  - type: dropdown
+#    id: incidentClassification
+#    attributes:
+#      label: Classify Severity of Incident
+#      description: "What level of severity would you classify this incident? Please refer to our [Platform document on Classifying incidents](https://depo-platform-documentation.scrollhelp.site/support/va-platform-incident-playbook#VAPlatformIncidentPlaybook-ClassifyingtheIncident) for our classification rubric"
+#      multiple: false
+#      options:
+#        - Critical
+#        - High
+#        - Moderate
+#        - Low
+#    validations:
+#      required: true
+#  - type: dropdown
+#    id: mobileImpact
+#    attributes:
+#      label: Does this impact VA Mobile?
+#      description: "Will you need to make any modifications to VA Mobile?"
+#      multiple: false
+#      options:
+#        - Yes
+#        - No
+#    validations:
+#      required: true
   - type: input
     id: impactedUsers
     attributes:
@@ -119,13 +119,13 @@ body:
       description: "name + @username OR va.gov email address"
     validations:
       required: true
-  - type: textarea
-    id: prodValidation
-    attributes:
-      label: What is your post-deploy verification plan (link Datadog log query or testing steps)?
-      placeholder: Add links to Datadog log query and/or testing steps here. If you cannot provide this, explain why in detail.  
-    validations:
-      required: true
+#  - type: textarea
+#    id: prodValidation
+#    attributes:
+#      label: What is your post-deploy verification plan (link Datadog log query or testing steps)?
+#      placeholder: Add links to Datadog log query and/or testing steps here. If you cannot provide this, explain why in detail.  
+#    validations:
+#      required: true
   - type: checkboxes
     id: terms
     attributes:
